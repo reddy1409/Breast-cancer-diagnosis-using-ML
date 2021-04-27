@@ -14,7 +14,7 @@ ABOUT THE DATASET:
 I have collected the data from Kaggle. Wisconsin Diagnostic Breast Cancer (WDBC) dataset obtained by the university of Wisconsin Hospital is used to classify tumors as benign or malignant. The dataset we have used consists of 699 rows with different columns containing information about the lumps or tumors and the last column contains information if the tumor is benign or malignant.
 EXPLORATORY DATA ANALYSIS:
 The Dataset had 699 rows and 33 columns. There was an extra column in the table, which was removed, and the null values were extracted using isnull function. The sum of the null values was also shown. 
-Visualizations:
+VISUALIZATIONS:
  ![image](https://user-images.githubusercontent.com/63264474/116178706-b5053c80-a6db-11eb-80c6-faf7ce288d68.png)
 
 The above visualization is a histogram with diagnosis on the X-axis and count on the Y-axis. The main aspect in finding the cancer to be serious or not by knowing if it is benign or malign. In the Data we have different features which help us to know if the cancer is benign or malign. From the above histogram we can see the blue one to be malign and the orange to be benign.
@@ -28,7 +28,7 @@ The Dark green color represents malign and light green represents benign. We can
 ![image](https://user-images.githubusercontent.com/63264474/116178943-044b6d00-a6dc-11eb-9a0b-bf0e0892c9c9.png)
 A Heat map is drawn taking all the features into consideration. A heat map is used to check the correlation, and, in this case, we are using it to check the correlation between the different features. The lighter the color the stronger the correlation between the features. From the above heat map, we can see where we have the strongest correlation.
 
-Data Analysis and Results:
+DATA ANALYSIS AND RESULTS:
 From the above heatmap we can see some features play a major role for the prediction of the tumor. The next step is creating a model. The first step of creating the model is training and testing of the data. Here the first step is to split the entire data into training and testing where the test size can be passed as a parameter. 30 percent is given to test and 70 percent to train.
 Standard scaling:
 Here we are performing standardization by using the standard scalar function where all the values of features are converted into same unit. This is done for getting a better accuracy.
@@ -43,10 +43,10 @@ As we cannot go through all the values, a graph is plotted.
 SVM:
 The SVM algorithm is also used to get the accuracy. After finding the accuracy using SVM we can conclude that the SVM gives a better accuracy when compared to KNN.
 
-Conclusion:
+CONCLUSION:
 Breast cancer is considered to be one of the significant causes of death in women. Early detection of breast cancer plays an essential role to save women’s life. Here using Python helps in providing the visualizations of different attributes. We can also see that SVM performs better than KNN and will have more accuracy.
 
-Bibliography:
+BIBLIOGRAPHY:
 https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
 https://towardsdatascience.com/building-a-simple-machine-learning-model-on-breast-cancer-data-eca4b3b99fa3
 Mohammed S.A., Darrab S., Noaman S.A., Saake G. (2020) Analysis of Breast Cancer Detection Using Different Machine Learning Techniques. In: Tan Y., Shi Y., Tuba M. (eds) Data Mining and Big Data. DMBD 2020. Communications in Computer and Information Science, vol 1234. Springer, Singapore. https://doi.org/10.1007/978-981-15-7205-0_10
